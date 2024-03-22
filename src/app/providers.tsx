@@ -1,15 +1,22 @@
+'use client'
+
 import { PropsWithChildren } from 'react'
 
-import GlobalStyles from '@/styles/global'
 import ProviderReactQuery from '@/lib/reactQuery/provider'
+
+import { ThemeProvider } from 'styled-components'
+import { theme } from '@/styles/theme'
+import GlobalStyles from '@/styles/global'
 
 export function Providers({ children }: PropsWithChildren) {
   return (
     <>
-      <ProviderReactQuery>
-        <GlobalStyles />
-        {children}
-      </ProviderReactQuery>
+      <ThemeProvider theme={theme}>
+        <ProviderReactQuery>
+          <GlobalStyles />
+          {children}
+        </ProviderReactQuery>
+      </ThemeProvider>
     </>
   )
 }

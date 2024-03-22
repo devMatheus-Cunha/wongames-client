@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
   grid: {
     container: '130rem',
     gutter: '3.2rem'
@@ -48,4 +48,3 @@ const theme = {
     alwaysOnTop: 50
   }
 }
-export default theme
