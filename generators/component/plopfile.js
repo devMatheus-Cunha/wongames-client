@@ -1,8 +1,4 @@
-'use strict'
-import { NodePlopAPI } from 'plop'
-
-export default function (plop: NodePlopAPI) {
-  // create your generators here
+module.exports = (plop) => {
   plop.setGenerator('component', {
     description: 'Create a component',
     prompts: [
