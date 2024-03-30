@@ -29,6 +29,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.48.2",
     "styled-components": "^6.1.1",
+    "styled-media-query": "^2.1.2",
     "typescript": "^5",
     "zod": "^3.22.4"
   },
