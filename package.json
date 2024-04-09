@@ -17,6 +17,7 @@
     "generate": "yarn plop --plopfile generators/component/plopfile.js"
   },
   "dependencies": {
+    "@styled-icons/material": "^10.47.0",
     "@tanstack/query-core": "^4.29.5",
     "@tanstack/react-query": "^4.29.5",
     "@tanstack/react-query-devtools": "^4.29.5",

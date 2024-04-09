@@ -1498,6 +1498,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.7":
+  version: 7.24.4
+  resolution: "@babel/runtime@npm:7.24.4"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 785aff96a3aa8ff97f90958e1e8a7b1d47f793b204b47c6455eaadc3f694f48c97cd5c0a921fe3596d818e71f18106610a164fb0f1c71fd68c622a58269d537c
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15, @babel/template@npm:^7.3.3":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15"
@@ -3932,6 +3941,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@styled-icons/material@npm:^10.47.0":
+  version: 10.47.0
+  resolution: "@styled-icons/material@npm:10.47.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.7"
+    "@styled-icons/styled-icon": "npm:^10.7.0"
+  peerDependencies:
+    react: "*"
+    styled-components: "*"
+  checksum: a38dc7f0784f7ba4e3e2d9b9a85623464905471b2efcec25bf59721fa67e7befe0a5c77f142329891f19194d971c07775e81dc362a23113e046e552b3a588d1c
+  languageName: node
+  linkType: hard
+
+"@styled-icons/styled-icon@npm:^10.7.0":
+  version: 10.7.1
+  resolution: "@styled-icons/styled-icon@npm:10.7.1"
+  dependencies:
+    "@babel/runtime": "npm:^7.20.7"
+  peerDependencies:
+    react: "*"
+    styled-components: ">=4.1.0"
+  checksum: 9f42e3ba170058b62b58b7eef0eda6cd2639ab967efb07021ef379a86d87635f6654125bfbc002d50e5eeccd99709dbceb3b9f9ae206dbe4f33d0100df444cdc
+  languageName: node
+  linkType: hard
+
 "@swc/core-darwin-arm64@npm:1.3.100":
   version: 1.3.100
   resolution: "@swc/core-darwin-arm64@npm:1.3.100"
@@ -6030,6 +6064,7 @@ __metadata:
     "@storybook/nextjs": "npm:^7.6.3"
     "@storybook/react": "npm:^7.6.3"
     "@storybook/test": "npm:^7.6.3"
+    "@styled-icons/material": "npm:^10.47.0"
     "@tanstack/eslint-plugin-query": "npm:^5.12.1"
     "@tanstack/query-core": "npm:^4.29.5"
     "@tanstack/react-query": "npm:^4.29.5"
