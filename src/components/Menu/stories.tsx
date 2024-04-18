@@ -7,3 +7,10 @@ export default {
 } as Meta
 
 export const Default: StoryObj = {}
+
+Default.parameters = {
+  layout: 'fullscreen',
+  background: {
+    default: 'dark'
+  }
+}
